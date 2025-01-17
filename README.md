@@ -1,6 +1,5 @@
 Hemos vueto a "rediseñar" nuestra página web, haciendo muchos cambios, añadiendo páginas nuevas y eliminando otras.Así como volviedo a hacer los CSS y reestructurandolos y dividiendolos en más páginas.También hemos hecho muchos cambios visuales de diseño.
 
-
 Previsualiza nuestra pagina web [aquí](https://jonay123.github.io/pagina-web-adela/)
 
 ## Propósito de los Formularios
@@ -102,6 +101,3 @@ Este formulario está orientado a recibir retroalimentación de los usuarios sob
 ## Conclusión
 El equipo trabajó de manera colaborativa para desarrollar formularios funcionales y atractivos, enfocados en mejorar la experiencia del usuario y cumplir con los estándares de calidad. Gracias a las contribuciones individuales, el proyecto es sólido, eficiente y centrado en las necesidades de los usuarios.
 
-
- 
-Previsualiza nuestra pagina web [aquí](https://jonay123.github.io/pagina-web-adela/)
