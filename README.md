@@ -12,8 +12,7 @@ También incluye una opción para aceptar las políticas de privacidad.Incluye:
 - **Fecha de Nacimiento:** Personalización de la experiencia.
 - **País:** Ajustar preferencias según la ubicación.
 - **Un botón** para mostrar u ocultar contraseña hecho con un Script.
-  ![Screenshot_20250117_174717](https://github.com/user-attachments/assets/2de64a33-ee9a-4003-aa81-11ede941354c)
-  ![Screenshot_20250117_174805](https://github.com/user-attachments/assets/31634d5e-f008-4f29-9221-fb92045e941b)
+  ![Screenshot_20250117_174717](https://github.com/user-attachments/assets/2de64a33-ee9a-4003-aa81-11ede941354c) ![Screenshot_20250117_174805](https://github.com/user-attachments/assets/31634d5e-f008-4f29-9221-fb92045e941b)
 
 
 ---
