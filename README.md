@@ -14,7 +14,8 @@ También incluye una opción para aceptar las políticas de privacidad.Incluye:
 - **Un botón** para mostrar u ocultar contraseña hecho con un Script.
 
 
-  ![Screenshot_20250117_174717](https://github.com/user-attachments/assets/2de64a33-ee9a-4003-aa81-11ede941354c) ![Screenshot_20250117_174805](https://github.com/user-attachments/assets/31634d5e-f008-4f29-9221-fb92045e941b)
+  ![Screenshot_20250117_174717](https://github.com/user-attachments/assets/2de64a33-ee9a-4003-aa81-11ede941354c) ![Screenshot_20250117_174805](https://github.com/user-attachments/assets/31634d5e-f008-4f29-9221-fb92045e941b) ![Screenshot_20250117_180159](https://github.com/user-attachments/assets/531094f2-ba17-419e-955a-5e3a15c2f131)
+
 
 **Según la resolución en la que se visualize la página web, se vera de diferente manera.Hemos adaptado la página web tanto como en escritorio, como en móviles y en tablets.**
 ---
@@ -27,14 +28,16 @@ Este formulario está orientado a recibir retroalimentación de los usuarios sob
 - **Preferencias:** Selección de tipos de perfumes favoritos.
 - **Comentarios Abiertos:** Espacio para sugerencias o mensajes.
 
-![Screenshot_20250117_174852](https://github.com/user-attachments/assets/f05d0572-2f72-4d89-a73c-afb92b00d987) ![Screenshot_20250117_174913](https://github.com/user-attachments/assets/af48b77b-d1ba-4825-9a99-5d7d691fe263)
+![Screenshot_20250117_174852](https://github.com/user-attachments/assets/f05d0572-2f72-4d89-a73c-afb92b00d987) ![Screenshot_20250117_174913](https://github.com/user-attachments/assets/af48b77b-d1ba-4825-9a99-5d7d691fe263) ![Screenshot_20250117_180139](https://github.com/user-attachments/assets/40c0111a-50d2-4f28-89f6-c16856a7076c)
+
 
 **Según la resolución en la que se visualize la página web, se vera de diferente manera.Hemos adaptado la página web tanto como en escritorio, como en móviles y en tablets.**
 
 ---
 ## Inicio de Nuestra Pagina
 
-![Screenshot_20250117_174536](https://github.com/user-attachments/assets/38caad06-8012-4c40-b766-180bb878f8a1) ![Screenshot_20250117_174613](https://github.com/user-attachments/assets/ed3dd71d-4040-4916-8f8a-6d2bd68ab28f)
+![Screenshot_20250117_174536](https://github.com/user-attachments/assets/38caad06-8012-4c40-b766-180bb878f8a1) ![Screenshot_20250117_174613](https://github.com/user-attachments/assets/ed3dd71d-4040-4916-8f8a-6d2bd68ab28f) ![Screenshot_20250117_180122](https://github.com/user-attachments/assets/ddd6eb76-ba4d-4e09-9486-b743163e1c40)
+
 
 **Según la resolución en la que se visualize la página web, se vera de diferente manera.Hemos adaptado la página web tanto como en escritorio, como en móviles y en tablets.**
 
