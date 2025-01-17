@@ -78,7 +78,7 @@ Este formulario está orientado a recibir retroalimentación de los usuarios sob
 - **Ejemplo Inválido:**
   - `password`
   - `12345678`
-  - `Password` (falta un carácter especial).
+  - `Password` (
 
 ---
 
