@@ -16,7 +16,7 @@ También incluye una opción para aceptar las políticas de privacidad.Incluye:
 
   ![Screenshot_20250117_174717](https://github.com/user-attachments/assets/2de64a33-ee9a-4003-aa81-11ede941354c) ![Screenshot_20250117_174805](https://github.com/user-attachments/assets/31634d5e-f008-4f29-9221-fb92045e941b)
 
-
+**Según la resolución en la que se visualize la página web, se vera de diferente manera.Hemos adaptado la página web tanto como en escritorio, como en móviles y en tablets.
 ---
 
 ### 2. Formulario de "Sobre Nosotros"
@@ -29,14 +29,14 @@ Este formulario está orientado a recibir retroalimentación de los usuarios sob
 
 ![Screenshot_20250117_174852](https://github.com/user-attachments/assets/f05d0572-2f72-4d89-a73c-afb92b00d987) ![Screenshot_20250117_174913](https://github.com/user-attachments/assets/af48b77b-d1ba-4825-9a99-5d7d691fe263)
 
-
+**Según la resolución en la que se visualize la página web, se vera de diferente manera.Hemos adaptado la página web tanto como en escritorio, como en móviles y en tablets.
 
 ---
 ## Inicio de Nuestra Pagina
 
 ![Screenshot_20250117_174536](https://github.com/user-attachments/assets/38caad06-8012-4c40-b766-180bb878f8a1) ![Screenshot_20250117_174613](https://github.com/user-attachments/assets/ed3dd71d-4040-4916-8f8a-6d2bd68ab28f)
 
-
+**Según la resolución en la que se visualize la página web, se vera de diferente manera.Hemos adaptado la página web tanto como en escritorio, como en móviles y en tablets.
 
 ---
 
