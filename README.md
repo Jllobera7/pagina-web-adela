@@ -27,6 +27,10 @@ Este formulario está orientado a recibir retroalimentación de los usuarios sob
 - **Preferencias:** Selección de tipos de perfumes favoritos.
 - **Comentarios Abiertos:** Espacio para sugerencias o mensajes.
 
+![Screenshot_20250117_174852](https://github.com/user-attachments/assets/f05d0572-2f72-4d89-a73c-afb92b00d987) ![Screenshot_20250117_174913](https://github.com/user-attachments/assets/af48b77b-d1ba-4825-9a99-5d7d691fe263)
+
+
+
 ---
 
 ## Explicación de Expresiones Regulares
