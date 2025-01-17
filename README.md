@@ -32,6 +32,13 @@ Este formulario está orientado a recibir retroalimentación de los usuarios sob
 
 
 ---
+## Inicio de Nuestra Pagina
+
+![Screenshot_20250117_174536](https://github.com/user-attachments/assets/38caad06-8012-4c40-b766-180bb878f8a1) ![Screenshot_20250117_174613](https://github.com/user-attachments/assets/ed3dd71d-4040-4916-8f8a-6d2bd68ab28f)
+
+
+
+
 
 ## Explicación de Expresiones Regulares
 
