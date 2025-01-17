@@ -114,5 +114,4 @@ Este formulario está orientado a recibir retroalimentación de los usuarios sob
 ---
 
 ## Conclusión
-El equipo trabajó de manera colaborativa para desarrollar formularios funcionales y atractivos, enfocados en mejorar la experiencia del usuario y cumplir con los estándares de calidad. Gracias a las contribuciones individuales, el proyecto es sólido, eficiente y centrado en las necesidades de los usuarios.
-
+El equipo trabajó de manera colaborativa para desarrollar formularios funcionales y atractivos.
