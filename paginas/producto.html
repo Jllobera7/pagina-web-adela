@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="producto-detalle"></div>
+
+<script>
+    // Obtener ID del producto desde la URL
+    const params = new URLSearchParams(window.location.search);
+    const productoId = params.get("id");
+
+    // Simular una base de datos de productos
+    const productos = {
+        "1": { nombre: "Camiseta Hombre", precio: "20€", descripcion: "Camiseta de algodón" },
+        "2": { nombre: "Vestido Mujer", precio: "35€", descripcion: "Vestido elegante" }
+    };
+
+    // Mostrar la info del producto
+    const producto = productos[productoId];
+    if (producto) {
+        document.getElementById("producto-detalle").innerHTML = `
+            <h1>${producto.nombre}</h1>
+            <p>Precio: ${producto.precio}</p>
+            <p>${producto.descripcion}</p>
+        `;
+    } else {
+        document.getElementById("producto-detalle").innerHTML = `<p>Producto no encontrado.</p>`;
+    }
+</script>
+</body>
+</html>
