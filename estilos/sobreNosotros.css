@@ -17,6 +17,12 @@ body {
     flex-direction: column;
     overflow-x: hidden; /* Evita desbordamientos horizontales */
     width: 100%;
+    transition: all 1.5s ease;
+}
+.dark {
+    background-color: #000000;
+    color:rgb(0, 0, 0);
+    transition: all 1.5s ease;
 }
 
 /* ========================================= */
@@ -31,6 +37,22 @@ header {
     flex-direction: row;
     width: 100%;
     padding: 1rem 2rem;
+    transition: all 1.5s ease;
+}
+.dark header {
+    background-color: #212121e3; /* Color oscuro para el header */
+    color: #ffffff;
+}
+#toggle {
+    display: none;
+}
+#label_toggle {
+    position: absolute;
+    top:10px;
+    right: 10px;
+    font-size: 2em;
+    color: blueviolet;
+    cursor: pointer
 }
 
 ul.barra-navegacion {
@@ -40,6 +62,9 @@ ul.barra-navegacion {
     display: flex;
     justify-content: center;
     font-weight: bold;
+}
+.dark ul.barra-navegacion a  {
+    color: #f4f4f4;
 }
 
 ul.barra-navegacion li {

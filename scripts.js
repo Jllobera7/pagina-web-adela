@@ -22,7 +22,7 @@
 /* -----------------------------JONAY-----------------------------------------------*/
 
 /* Tarea 1*/
-// Array de objetos con datos de perfumes (mismo que antes)
+// Array de objetos con datos de perfumes 
 const perfumes = [
     { id: 1, nombre: "9PM de Afnan Perfumes", precio: 48.00, categoria: "Hombre" },
     { id: 2, nombre: "Aether de French Avenue", precio: 51.00, categoria: "Hombre" },
@@ -38,8 +38,7 @@ const perfumes = [
 
 // Función para generar el HTML de un perfume
 function generarHTMLPerfume(perfume) {
-    return `
-        <article>
+    return `<article>
             <span class="etiqueta-oferta">¡Oferta!</span>
             <img class="imagen-producto" src="../imagenes/${perfume.nombre}.webp" alt="${perfume.nombre}">
             <h3>${perfume.nombre}</h3>
@@ -48,15 +47,14 @@ function generarHTMLPerfume(perfume) {
                 <span class="precio-original">${(perfume.precio + 4).toFixed(2)} €</span>
                 <span class="precio-oferta">${perfume.precio.toFixed(2)} €</span>
             </p>
-        </article>
-    `;
+        </article>`;
 }
 
 // Función para actualizar la sección de perfumes en la página
 function actualizarPerfumes(listaPerfumes) {
-    const section = document.querySelector('section');
+    const section = document.getElementById('elementos-perfumes');
     section.innerHTML = ''; // Limpia el contenido actual
-    listaPerfumes.forEach(perfume => {
+    listaPerfumes.forEach(function(perfume) {
         section.innerHTML += generarHTMLPerfume(perfume);
     });
 }
@@ -64,9 +62,9 @@ function actualizarPerfumes(listaPerfumes) {
 // Filtrar perfumes por precio máximo
 function filtrarPorPrecio(maxPrecio) {
     const categoriaActual = window.location.pathname.includes('hombre') ? 'Hombre' : 'Mujer';
-    const perfumesFiltrados = perfumes.filter(perfume => 
-        perfume.precio <= maxPrecio && perfume.categoria === categoriaActual
-    );
+    const perfumesFiltrados = perfumes.filter(function(perfume) {
+        return perfume.precio <= maxPrecio && perfume.categoria === categoriaActual;
+    });
     actualizarPerfumes(perfumesFiltrados);
 }
 
@@ -74,7 +72,9 @@ function filtrarPorPrecio(maxPrecio) {
 function ordenarPorNombre() {
     const categoriaActual = window.location.pathname.includes('hombre') ? 'Hombre' : 'Mujer';
     const perfumesOrdenados = [...perfumes]
-        .filter(perfume => perfume.categoria === categoriaActual)
+    .filter(function(perfume) {
+        return perfume.categoria === categoriaActual;
+    })
         .sort((a, b) => a.nombre.localeCompare(b.nombre));
     actualizarPerfumes(perfumesOrdenados);
 }
@@ -104,8 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const main = document.querySelector('main');
     main.insertAdjacentHTML('afterbegin', `
         <div class="controles">
-            <label for="precio-max">Precio máximo (€):</label>
-            <input type="number" id="precio-max" min="0" step="1" placeholder="Ej: 50">
+            <label for="precio-maximo">Precio máximo (€):</label>
+            <input type="number" id="precio-maximo" min="0" step="1" placeholder="Ej: 50">
             <button id="filtrar-precio">Filtrar</button>
             <button id="ordenar-nombre">Ordenar por Nombre</button>
             <button id="ordenar-precio">Ordenar por Precio</button>
@@ -114,34 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Estilos básicos para los controles (podrías mover esto a tu CSS)
     const style = document.createElement('style');
-    style.textContent = `
-        .controles {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .controles label {
-            font-size: 1.2em;
-            margin-right: 10px;
-        }
-        .controles input {
-            padding: 5px;
-            font-size: 1em;
-            width: 100px;
-            margin-right: 10px;
-        }
-        .controles button {
-            padding: 8px 15px;
-            margin: 0 5px;
-            background-color: #00000082;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .controles button:hover {
-            background-color: #777575;
-        }
-    `;
+    
     document.head.appendChild(style);
 
     // Event listeners para los botones
@@ -154,8 +127,23 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('ordenar-precio').addEventListener('click', ordenarPorPrecio);
 });
 
+  /*                  */
+ /*   Ejercicio 3    */
+/*                  */
 
-
+let toggle = document.getElementById('toggle');
+let label_toggle = document.getElementById('label_toggle');
+toggle.addEventListener('change', (event)=> {
+    let checked = event.target.checked;
+    document.body.classList.toggle('dark');  
+    if(checked==true){
+        label_toggle.innerHTML='<i class="fa-solid fa-sun"></i>';
+        label_toggle.style.color="yellow";
+    } else {
+        label_toggle.innerHTML='<i class="fa-solid fa-moon"></i>';
+        label_toggle.style.color="blueviolet";
+    }
+} )
 
 
 
