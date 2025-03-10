@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfumes de Hombre</title><!--Título de la página que aparecerá en la pestaña del navegador-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />   <!--añadimos una librería adicional-->
     <link rel="stylesheet" href="../estilos/estilos.css">
 </head>
 <body>
-
-    <header id="header"><!-- Encabezado de la página con el logo y el menú de navegación -->        
+    
+    <header id="header"><!-- Encabezado de la página con el logo y el menú de navegación -->
+        <label id="label_toggle" for="toggle"><i class="fa-solid fa-moon"></i></label> <!-- campo de la luna/sol-->
+        <input type="checkbox" id="toggle"></input>
+        <div class="contenedor"></div>
         <div class="logo">
             <img src="../imagenes/logo.png" alt="Logo de la página" class="logo">
             <h1 id="gypsy">Gipsy Arome</h1>
         </div>
-
-       <label class="nav-toggle">
-        <input type="checkbox" id="menu-input" class="nav-input">
-       </label>
 
        <ul class="barra-navegacion">
         <li class="nav-item"> <a href="../index.html" class="nav-link">INICIO</a></li>
@@ -30,11 +32,11 @@
 
     <main><!--En este main ehemos creado un section para clasificar cada perfume en un article-->
         <h1 class="titulo-pagina-mujer">Perfumes Hombre</h1> 
-        <section>
+        <section id="elementos-perfumes">
             <!-- Primer perfume -->
             <article>
                 <span class="etiqueta-oferta">¡Oferta!</span>
-                <img class="imagen-producto"src="../imagenes/9-Pm-hombre.webp" alt="9AM de Afnan Perfumes">
+                <img class="imagen-producto"src="../imagenes/9PM de Afnan Perfumes.webp" alt="9AM de Afnan Perfumes">
                 <h3>9AM de Afnan Perfumes</h3>
                 <p class="perfumes-de">Perfumes Hombre</p>
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
@@ -45,7 +47,7 @@
             <!-- Segundo perfume perfume -->
             <article>
                 <span class="etiqueta-oferta">¡Oferta!</span>
-                <img class="imagen-producto"src="../imagenes/Aether.webp" alt="Aether de French Avenue">
+                <img class="imagen-producto"src="../imagenes/Aether de French Avenue.webp" alt="Aether de French Avenue">
                 <h3>Aether de French Avenue</h3>
                 <p class="perfumes-de">Perfumes Hombre</p>
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
@@ -56,7 +58,7 @@
             <!-- tercer perfume -->
             <article>
                 <span class="etiqueta-oferta">¡Oferta!</span>
-                <img class="imagen-producto"src="../imagenes/hawas.webp" alt="Hawas Ice for Him de Rasasi">
+                <img class="imagen-producto"src="../imagenes/Aether de French Avenue.webp" alt="Hawas Ice for Him de Rasasi">
                 <h3>Hawas Ice for Him de Rasasi</h3>
                 <p class="perfumes-de">Perfumes Hombre</p>
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
@@ -65,9 +67,8 @@
                 </p>   
             </article>
             <!-- cuarto perfume -->
-            <article>
                 <span class="etiqueta-oferta">¡Oferta!</span>
-                <img class="imagen-producto"src="../imagenes/Al-Nashama-hombre.webp" alt="Al Nashama Caprice de Lattafa Perfumes">
+                <img class="imagen-producto"src="../imagenes/Al Nashama Caprice de Lattafa Perfumes.webp" alt="Al Nashama Caprice de Lattafa Perfumes">
                 <h3>Al Nashama Caprice de Lattafa Perfumes</h3>
                 <p class="perfumes-de">Perfumes Hombre</p>
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
@@ -78,7 +79,7 @@
             <!-- quinto perfume -->
             <article>
                 <span class="etiqueta-oferta">¡Oferta!</span>
-                <img class="imagen-producto"src="../imagenes/asad-lattafa-hombre.webp" alt="Asad de Lattafa Perfumes">
+                <img class="imagen-producto"src="../imagenes/Asad de Lattafa Perfumes.webp" alt="Asad de Lattafa Perfumes">
                 <h3>Asad de Lattafa Perfumes</h3>
                 <p class="perfumes-de">Perfumes Hombre</p>
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->

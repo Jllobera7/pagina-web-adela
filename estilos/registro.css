@@ -15,6 +15,18 @@ body {
     min-height: 100vh; /* Asegura que el cuerpo ocupe toda la ventana */
     display: flex;
     flex-direction: column;
+    transition: all 1.5s ease;
+}
+#toggle {    
+    display: none;     /*hacemos el checkbox invisible*/
+}
+#label_toggle {  /*simbolo de la luna*/
+    position: absolute;
+    top:10px;
+    right: 10px;
+    font-size: 2em;
+    color: blueviolet;
+    cursor: pointer
 }
 
 /* ========================================= */
@@ -29,7 +41,16 @@ header {
     flex-direction: row;
     width: 100%;
     padding: 1rem 2rem;
+    transition: all 1.5s ease;
 }
+.dark header {
+    background-color: #383838e3; /* Color oscuro para el header */
+    color: #ffffff;
+}
+.dark ul.barra-navegacion a  {     /*para el modo ocuro*/
+    color: #f4f4f4;
+}
+
 
 ul.barra-navegacion {
     list-style-type: none;
