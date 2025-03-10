@@ -478,7 +478,7 @@ p {
         
         right: 10px;
         position: absolute;
-        
+        z-index: 1005;
         width: 30px;
         height: 30px;
         background-image: var(--icon-toggle-menu);
