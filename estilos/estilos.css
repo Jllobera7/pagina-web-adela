@@ -453,12 +453,11 @@ p {
         --icon-toggle-menu: url("../imagenes/menu.jpg");
         --transform-menu-show: translate(-100%);
        flex-direction: row;
-       
     }
     header:has(.nav-input:checked){
         --icon-toggle-menu: url("../imagenes/menuCerrar.jpg");
         --transform-menu-show: translate(0%);
-       }
+    }
        
     .logo, .nav-toggle{
         z-index: 10;
@@ -483,7 +482,6 @@ p {
         height: 30px;
         background-image: var(--icon-toggle-menu);
         background-size: cover;
-        
         transition: background-image .5s;
         
     }
@@ -500,7 +498,6 @@ p {
     color: black;
     z-index: 1000;
     display: grid !important;
-    
     position: fixed;
     place-content: center;
     gap: 2rem;
@@ -508,9 +505,11 @@ p {
     background-color: white;
     inset: 0;
     padding: 0 5% ;
-    
     transition: .5s transform ;
-   
+   }
+   .dark .barra-navegacion {
+    background-color: #2c2c2c;
+    color: white;
    }
 
    .banner{
