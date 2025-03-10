@@ -464,11 +464,16 @@ p {
         z-index: 10;
     }
     
-    .logo, img{
+    .logo{
     width: 10rem;
     height: 10rem;
     margin-right: 10rem;
-  }
+    }
+
+    .img{
+        width: 10rem;
+        margin-right: 10rem;   
+    }
      .nav-toggle{
         
         right: 10px;
