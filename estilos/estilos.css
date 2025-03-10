@@ -272,7 +272,7 @@ footer a:hover {
 }
 /* Botón de acción dentro de las categorías */
 .boton {
-    
+
     display: inline-block; /* Ajusta el tamaño al contenido */
     justify-content: center; /* Centra horizontalmente (no aplica aquí por inline-block) */
     align-items: center; /* Centra verticalmente (no aplica aquí por inline-block) */
@@ -464,11 +464,16 @@ p {
         z-index: 10;
     }
     
-    .logo, img{
+    .logo{
     width: 10rem;
     height: 10rem;
     margin-right: 10rem;
-  }
+    }
+
+    .img{
+        width: 10rem;
+        margin-right: 10rem;   
+    }
      .nav-toggle{
         
         right: 10px;
@@ -493,7 +498,7 @@ p {
     transform: var(--transform-menu-show);
     list-style: none;
     color: black;
-    
+    z-index: 1000;
     display: grid !important;
     
     position: fixed;
