@@ -357,10 +357,10 @@ p {
     .logo, .nav-toggle{
         z-index: 10;
     }
-  .logo, img{
+    .logo, img{
     height: 10rem;
     width: 10rem;
-    margin-right: 10rem;
+    
   }
      .nav-toggle{
         
@@ -427,13 +427,8 @@ p {
        width: 100%; /* Ocupan todo el ancho del contenedor */
        height: 20rem;
        margin-bottom: 20px; /* Añade separación entre las categorías */
+       font-size: 0.9rem;
 
-   }
-   .categoria-mujer {
-    font-size: 0.9rem;
-   }
-   .categoria-hombre{
-    font-size: 0.9rem;
    }
    .boton{
     transform: translate(-10%, +250%);

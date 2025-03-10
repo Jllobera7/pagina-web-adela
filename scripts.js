@@ -24,10 +24,6 @@ function moverCarrusel(direccion) {
     contenedor.style.transform = `translateX(${desplazamiento}px)`;
 }
 
-// Conectar los botones
-document.querySelector('.boton-carrusel.izquierda').addEventListener('click', () => moverCarrusel(-1));
-document.querySelector('.boton-carrusel.derecha').addEventListener('click', () => moverCarrusel(1));
-
 // Recalcular desplazamiento al cambiar tamaño de ventana
 window.addEventListener('resize', () => {
     moverCarrusel(0); // Refresca la posición actual sin cambiar el índice
