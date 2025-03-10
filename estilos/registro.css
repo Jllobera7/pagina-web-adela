@@ -190,7 +190,6 @@ select,
 input[type="password"] {
     width: 100%;
     padding: 10px;
-    margin-bottom: 23px;
     border-radius: 6px;
     border: 1px solid #ccc;
     font-size: 1em;
@@ -215,16 +214,13 @@ button:hover {
 
 /* Botón de mostrar contraseña */
 .password-wrapper {
-    position: relative;
     display: flex;
     gap: 10px;
 }
 
 .eye-btn {
-    position: absolute;
     right: 0px;
     top: 50%;
-    transform: translateY(-105%);
     background: none;
     border: none;
     font-size: 1.15em;
