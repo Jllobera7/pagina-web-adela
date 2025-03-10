@@ -19,7 +19,7 @@ body {
     width: 100%;
     transition: all 1.5s ease;
 }
-.dark {
+.dark {          /*para el modo ocuro*/
     background-color: #000000;
     color:rgb(0, 0, 0);
     transition: all 1.5s ease;
@@ -39,7 +39,7 @@ header {
     padding: 1rem 2rem;
     transition: all 1.5s ease;
 }
-.dark header {
+.dark header {                
     background-color: #212121e3; /* Color oscuro para el header */
     color: #ffffff;
 }
@@ -63,7 +63,7 @@ ul.barra-navegacion {
     justify-content: center;
     font-weight: bold;
 }
-.dark ul.barra-navegacion a  {
+.dark ul.barra-navegacion a  {    /*para el modo ocuro*/
     color: #f4f4f4;
 }
 

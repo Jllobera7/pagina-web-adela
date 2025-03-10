@@ -112,14 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
     `);
 
-    // Estilos básicos para los controles (podrías mover esto a tu CSS)
+    // Estilos básicos para los controles (los estilos están en el css)
     const style = document.createElement('style');
     
     document.head.appendChild(style);
 
     // Event listeners para los botones
     document.getElementById('filtrar-precio').addEventListener('click', () => {
-        const maxPrecio = parseFloat(document.getElementById('precio-max').value) || Infinity;
+        const maxPrecio = parseFloat(document.getElementById('precio-maximo').value) || Infinity;
         filtrarPorPrecio(maxPrecio);
     });
 
@@ -133,12 +133,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let toggle = document.getElementById('toggle');
 let label_toggle = document.getElementById('label_toggle');
-toggle.addEventListener('change', (event)=> {
+toggle.addEventListener('change', (event)=> { /*añadimos un evento que sera para cambiar al modo oscuro */
     let checked = event.target.checked;
     document.body.classList.toggle('dark');  
     if(checked==true){
-        label_toggle.innerHTML='<i class="fa-solid fa-sun"></i>';
-        label_toggle.style.color="yellow";
+        label_toggle.innerHTML='<i class="fa-solid fa-sun"></i>'; /*cuando este en modo oscuro aparecerá un sol*/ 
+        label_toggle.style.color="yellow"; /*le ponemos un color amarillo al sol*/ 
     } else {
         label_toggle.innerHTML='<i class="fa-solid fa-moon"></i>';
         label_toggle.style.color="blueviolet";

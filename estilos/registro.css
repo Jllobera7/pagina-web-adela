@@ -17,10 +17,10 @@ body {
     flex-direction: column;
     transition: all 1.5s ease;
 }
-#toggle {
-    display: none;
+#toggle {    
+    display: none;     /*hacemos el checkbox invisible*/
 }
-#label_toggle {
+#label_toggle {  /*simbolo de la luna*/
     position: absolute;
     top:10px;
     right: 10px;
@@ -47,7 +47,7 @@ header {
     background-color: #383838e3; /* Color oscuro para el header */
     color: #ffffff;
 }
-.dark ul.barra-navegacion a  {
+.dark ul.barra-navegacion a  {     /*para el modo ocuro*/
     color: #f4f4f4;
 }
 
