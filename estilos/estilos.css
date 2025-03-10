@@ -463,9 +463,11 @@ p {
     .logo, .nav-toggle{
         z-index: 10;
     }
+    
     .logo, img{
     width: 10rem;
-    
+    height: 10rem;
+    margin-right: 10rem;
   }
      .nav-toggle{
         
