@@ -526,7 +526,7 @@ p {
 /* Contenedor interno que contiene todas las imágenes */
 .carrusel-contenedor {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out; /*efecto de desplazamiento*/
     margin: 0; /* Sin márgenes */
     padding: 0; /* Sin padding */
 }
@@ -543,7 +543,7 @@ p {
 }
 
 .carrusel img.agrandada {
-    transform: scale(1.5);
+    transform: scale(1.6);
     z-index: 10;
 }
 
@@ -571,7 +571,7 @@ p {
 /* Media Queries para responsividad */
 @media (max-width: 600px) {
     .carrusel {
-        width: 200px; /* 1 imagen visible */
+        width: 400px; /* 2 imagen visible */
     }
 }
 
@@ -579,4 +579,20 @@ p {
     .carrusel {
         width: 800px; /* 4 imágenes visibles */
     }
+}
+
+/* ========================================= */
+/* PARTICULAS PULVERIZACION                  */
+/* ========================================= */
+
+.particula {
+    position: absolute;
+    background: #285ae694;
+    border-radius: 100%;
+    transition: transform 1s ease-out, opacity 1s;
+}
+
+.particula.animar {
+    transform: translate(var(--translateX), var(--translateY)) scale(0);
+    opacity: 0;
 }

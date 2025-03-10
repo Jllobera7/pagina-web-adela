@@ -80,6 +80,21 @@ main {
     display: none;
   }
 
+  /* ========================================= */
+/* PARTICULAS PULVERIZACION                  */
+/* ========================================= */
+
+.particula {
+    position: absolute;
+    background: #285ae694;
+    border-radius: 100%;
+    transition: transform 1s ease-out, opacity 1s;
+}
+
+.particula.animar {
+    transform: translate(var(--translateX), var(--translateY)) scale(0);
+    opacity: 0;
+}
 /* ========================================= */
 /* FOOTER                                    */
 /* ========================================= */
