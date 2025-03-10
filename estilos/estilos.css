@@ -358,7 +358,6 @@ p {
         z-index: 10;
     }
     .logo, img{
-
     width: 10rem;
     
   }
@@ -510,27 +509,42 @@ p {
 /* ========================================= */
 /* CARRUSEL DE IMÁGENES                      */
 /* ========================================= */
+
+
 /* Contenedor principal del carrusel */
 .carrusel {
     position: relative;
-    width: 1200px; /* Por defecto: 6 imágenes de 200px */
+    width: 1200px; /* Exactamente 6 imágenes de 200px */
     overflow: hidden;
-    margin: auto;
-    max-width: 100%; /* Evita que se desborde en pantallas pequeñas */
+    height: 350px;
+    margin: 0 auto; /* Sin espacio extra */
+    max-width: 100%;
+    padding: 0; /* Sin padding que afecte el ancho */
+    box-sizing: border-box; /* Incluye bordes en el cálculo del ancho */
 }
 
 /* Contenedor interno que contiene todas las imágenes */
 .carrusel-contenedor {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin padding */
 }
 
 /* Cada imagen del carrusel */
 .carrusel img {
-    width: 200px; /* Ancho fijo para cada imagen */
+    width: 200px; /* Ancho fijo exacto */
     flex-shrink: 0;
-    object-fit: cover; /* O contain, según prefieras */
+    object-fit: contain;
     cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 0; /* Sin márgenes que desplacen */
+    padding: 0; /* Sin padding */
+}
+
+.carrusel img.agrandada {
+    transform: scale(1.5);
+    z-index: 10;
 }
 
 /* Botones */
@@ -557,56 +571,12 @@ p {
 /* Media Queries para responsividad */
 @media (max-width: 600px) {
     .carrusel {
-        width: 400px; /* 2 imágenes visibles */
+        width: 200px; /* 1 imagen visible */
     }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
     .carrusel {
         width: 800px; /* 4 imágenes visibles */
-    }
-}
-
-/* Escritorio: 6 imágenes (ya definido como 1200px por defecto) */
-
-/* Estilos para el modal (sin cambios) */
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    cursor: pointer;
-}
-
-.imagen-grande {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-    animation: aparecer 0.3s ease;
-}
-
-.boton-cerrar {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
-}
-
-@keyframes aparecer {
-    from {
-        opacity: 0;
-        transform: scale(0.8);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
     }
 }

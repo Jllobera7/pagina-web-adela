@@ -5,57 +5,59 @@ function moverCarrusel(direccion) {
     const contenedor = document.querySelector('.carrusel-contenedor');
     const items = document.querySelectorAll('.carrusel img');
     const totalItems = items.length;
-    const imagenAncho = items[0].offsetWidth; // 200px, según el CSS
-    const contenedorAncho = document.querySelector('.carrusel').offsetWidth;
-    const visibles = Math.floor(contenedorAncho / imagenAncho); // Calcula imágenes visibles
+    const imagenAncho = items[0].offsetWidth; // Debería ser 200px
+    const contenedorAncho = document.querySelector('.carrusel').offsetWidth; // Debería ser 1200px en escritorio
+    const visibles = Math.floor(contenedorAncho / imagenAncho); // Número exacto de imágenes visibles (6 en escritorio)
 
     // Calcula el nuevo índice
     indice += direccion;
 
-    // Ajusta el índice para el ciclo
+    // Ajusta el índice para el ciclo y límites
     if (indice < 0) {
-        indice = totalItems - visibles; // Vuelve al final visible
+        indice = totalItems - visibles; // Va al último conjunto visible
     } else if (indice > totalItems - visibles) {
         indice = 0; // Vuelve al inicio
     }
 
-    // Calcula el desplazamiento
+    // Asegura que el índice esté dentro de los límites
+    indice = Math.max(0, Math.min(indice, totalItems - visibles));
+
+    // Calcula el desplazamiento exacto basado en el índice y el ancho de la imagen
     const desplazamiento = -indice * imagenAncho;
+
+    // Aplica el desplazamiento
     contenedor.style.transform = `translateX(${desplazamiento}px)`;
+
+    // Depuración: Mostrar valores en consola para verificar
+    console.log({
+        indice,
+        visibles,
+        totalItems,
+        imagenAncho,
+        contenedorAncho,
+        desplazamiento
+    });
 }
 
 // Recalcular desplazamiento al cambiar tamaño de ventana
 window.addEventListener('resize', () => {
-    moverCarrusel(0); // Refresca la posición actual sin cambiar el índice
+    const items = document.querySelectorAll('.carrusel img');
+    const contenedorAncho = document.querySelector('.carrusel').offsetWidth;
+    const imagenAncho = items[0].offsetWidth;
+    const visibles = Math.floor(contenedorAncho / imagenAncho);
+    indice = Math.min(indice, items.length - visibles);
+    moverCarrusel(0);
 });
 
 function ampliarImagen(img) {
-    // Crear el modal y elementos
-    const modal = document.createElement('div');
-    const imagenGrande = document.createElement('img');
-    const botonCerrar = document.createElement('span');
-
-    // Asignar clases en lugar de estilos en línea
-    modal.classList.add('modal');
-    imagenGrande.classList.add('imagen-grande');
-    botonCerrar.classList.add('boton-cerrar');
-
-    // Configurar la imagen ampliada
-    imagenGrande.src = img.src;
-    imagenGrande.alt = img.alt;
-
-    // Agregar elementos al modal
-    modal.appendChild(imagenGrande);
-    modal.appendChild(botonCerrar);
-    document.body.appendChild(modal);
-
-    // Cerrar modal al hacer clic en el botón o el fondo
-    const cerrar = () => document.body.removeChild(modal);
-    botonCerrar.onclick = cerrar;
-    modal.onclick = (e) => e.target === modal && cerrar();
+    const todasLasImagenes = document.querySelectorAll('.carrusel img');
+    todasLasImagenes.forEach(imagen => {
+        if (imagen !== img) {
+            imagen.classList.remove('agrandada');
+        }
+    });
+    img.classList.toggle('agrandada');
 }
-
-
 
 
 /* Ejercicio 5
