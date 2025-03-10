@@ -381,8 +381,7 @@ p {
         display: none;
     }
     
-  
-       
+    
    .barra-navegacion{
     transform: var(--transform-menu-show);
     list-style: none;
