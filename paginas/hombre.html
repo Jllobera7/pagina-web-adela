@@ -35,14 +35,18 @@
             <!-- Primer perfume -->
             <article>
                 <span class="etiqueta-oferta">¡Oferta!</span>
-                <img class="imagen-producto"src="../imagenes/9-Pm-hombre.webp" alt="9AM de Afnan Perfumes">
+                <img class="imagen-producto"src="../imagenes/9-Pm-hombre.webp" alt="9AM de Afnan Perfumes" width="225px">
                 <h3>9AM de Afnan Perfumes</h3>
                 <p class="perfumes-de">Perfumes Hombre</p>
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
                     <span class="precio-original">52,00 €</span>
                     <span class="precio-oferta">48,00 €</span>
-                </p>   
+                </p> 
+                <button class="botones" onclick="toggleDescripcion('descripcion01')">Mostrar/Ocultar </button>
+                <p id="descripcion01">Frescura cítrica y toques verdes que despiertan como un buen café matutino. Casual y vibrante.</p>
+  
             </article>
+            
             <!-- Segundo perfume perfume -->
             <article>
                 <span class="etiqueta-oferta">¡Oferta!</span>
@@ -52,7 +56,11 @@
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
                     <span class="precio-original">56,00 €</span>
                     <span class="precio-oferta">51,00 €</span>
-                </p>   
+                </p>
+                <button class="botones" onclick="toggleDescripcion('descripcion02')">Mostrar/Ocultar </button>
+ 
+                <p id="descripcion02">Aire moderno y limpio con un toque dulce futurista. Minimalismo elegante.</p>
+  
             </article>
             <!-- tercer perfume -->
             <article>
@@ -63,7 +71,11 @@
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
                     <span class="precio-original">84,00 €</span>
                     <span class="precio-oferta">79,00 €</span>
-                </p>   
+                </p> 
+                <button class="botones" onclick="toggleDescripcion('descripcion03')">Mostrar/Ocultar </button>
+
+                <p id="descripcion03">Explosión helada de frutas y especias. Energía pura para días calurosos.</p> 
+                 
             </article>
             <!-- cuarto perfume -->
             <article>
@@ -74,7 +86,10 @@
                 <p class="precio"><!--aquí hemos creado dos span para hacer precio antiguo y actual-->
                     <span class="precio-original">44,00 €</span>
                     <span class="precio-oferta">40,00 €</span>
-                </p>   
+                </p>
+                <button class="botones" onclick="toggleDescripcion('descripcion04')">Mostrar/Ocultar </button>
+ 
+                <p id="descripcion04">Madera ahumada y cuero con un fondo especiado seductor. Misterio árabe.</p>
             </article>
             <!-- quinto perfume -->
             <article>
@@ -86,10 +101,13 @@
                     <span class="precio-original">36,00 €</span>
                     <span class="precio-oferta">32,00 €</span>
                 </p>   
-            </article>
-            
-        </section> 
+                <button class="botones" onclick="toggleDescripcion('descripcion05')">Mostrar/Ocultar </button>
 
+                <p id="descripcion05">Poder oriental con vainilla oscura y pimienta. Fuerza y carácter en cada gota.</p>
+            </article>
+        </section> 
+        
+   
     </main>
     <footer><!--pie de página con derechos de autor, redes sociales y nuestra política de privacidad -->
         <p>&copy; 2024 Gipsy Arome. Todos los derechos reservados.</p> 
@@ -100,5 +118,6 @@
         </div>
     </footer>
     <script src="../scripts.js"></script>
+   
 </body>
 </html>

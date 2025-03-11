@@ -120,6 +120,16 @@
                 </form>
             </fieldset>
         </form> 
+        <button id="mostrarComentarios">Mostrar Comentarios</button>
+  
+  <div id="seccionComentarios" class="hidden">
+    <h2 class="comentarioCliente">⭐⭐⭐Comentarios de nuestros clientes⭐⭐⭐</h2>
+    <ul id="listaComentarios"></ul>
+    <form id="formularioComentario">
+      <input type="text" id="nuevoComentario" placeholder="Escribe tu comentario..." required>
+      <button type="submit" class="butonto">Enviar</button>
+    </form>
+  </div>
     </main> 
     <footer><!--pie de página con derechos de autor, redes sociales y nuestra política de privacidad -->
         <p>&copy; 2024 Gipsy Arome. Todos los derechos reservados.</p>
@@ -129,6 +139,24 @@
             <a href="politica_privacidad.html">Política de Privacidad</a>
         </div>
     </footer>   
-    <script src="../scripts.js"></script>     
+    <script src="../scripts.js"></script>  
+      <script>
+        document.getElementById("mostrarComentarios").addEventListener("click", function(){
+                const seccion = document.getElementById("seccionComentarios");
+                seccion.classList.toggle("hidden");
+              });         
+              document.getElementById("formularioComentario").addEventListener("submit", function(event){
+                event.preventDefault();                 
+                const input = document.getElementById("nuevoComentario");
+                const texto = input.value.trim();               
+                if (texto !== "") {                 
+                  const nuevoElemento = document.createElement("li");
+                  nuevoElemento.className = "comment";
+                  nuevoElemento.textContent = texto;
+                  document.getElementById("listaComentarios").appendChild(nuevoElemento);
+                  input.value = "";
+                }
+              });
+      </script>
 </body>
 </html>

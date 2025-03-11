@@ -132,6 +132,7 @@ footer a:hover {
     
 }
 
+
 /* Estilo para el encabezado de la portada */
 .nosotros {
     background-image: url("../imagenes/fondo-negro.png");
@@ -233,7 +234,56 @@ input[type="checkbox"] + label {
 /* Espaciado entre secciones */
 fieldset > label {
     margin-top: 10px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
 }
+
+.hidden {
+    display: none;
+  }
+
+.hidden1 {
+    display: none;
+  }
+  #listaComentarios {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .comentarioCliente{
+    color: white;
+    
+  }
+  .comment {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   
+  }
+  #mostrarComentarios {
+    margin: 0 ;
+    padding: 8px;
+    width: 20%;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  .butonto {
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+
+
+
 
 /* ========================================= */
 /* MEDIA QUERIES                             */
