@@ -410,7 +410,7 @@ p {
 }
 .controles label {
     font-size: 1.2em;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .controles input {
     padding: 5px;
@@ -462,7 +462,10 @@ p {
     .logo, .nav-toggle{
         z-index: 1005;
     }
-    
+    .controles button {
+        margin-top: 15px;
+      
+    }
     .logo{
     width: 10rem;
     height: 10rem;
