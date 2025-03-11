@@ -210,9 +210,16 @@ function togglePassword(id, button) {
 }
 
         /*---------------------Validacion de los campos de la pagina de Registro---------------------*/
-        document.getElementById("formulario").addEventListener("submit", function(event) {
+       
+        document.getElementById("formulario").addEventListener("submit", function (event) {
             event.preventDefault();
-            
+        
+            // Expresiones regulares
+            const nombreApellidoRegex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/; // Solo letras y espacios
+            const telefonoRegex = /^[+0-9]+$/; // Solo números
+            const correoRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; // Formato de email válido
+        
+            // Obtener valores
             let nombre = document.getElementById("nombre").value.trim();
             let apellido = document.getElementById("apellido").value.trim();
             let telefono = document.getElementById("telefono").value.trim();
@@ -223,42 +230,54 @@ function togglePassword(id, button) {
             let confirmarContraseña = document.getElementById("confirmar_contraseña").value;
             let politicas = document.getElementById("politicas").checked;
         
+            let fechaActual = new Date().toISOString().split("T")[0];
+            let fechaMinima = "1930-01-01";
+            // Array para almacenar errores
             let errores = [];
         
-            if (nombre === "") errores.push("El campo 'Nombre' es obligatorio.");
-            if (apellido === "") errores.push("El campo 'Apellido' es obligatorio.");
-            
-            let telefonoRegex = /^\+?[0-9\s\-]{7,15}$/;
-            if (!telefonoRegex.test(telefono)) errores.push("El número de teléfono no es válido.");
-        
-            if (fechaNacimiento === "") errores.push("Debe seleccionar una fecha de nacimiento.");
-            
-            if (pais === "") errores.push("Debe seleccionar un país.");
-        
-            let correoRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!correoRegex.test(correo)) errores.push("El correo electrónico no es válido.");
-            
-            let contraseñaRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
-            if (!contraseñaRegex.test(contraseña)) {
-                errores.push("La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula, un número y un carácter especial.");
+            // Validaciones
+            if (!nombreApellidoRegex.test(nombre)) {
+                errores.push("El nombre solo puede contener letras y espacios.");
             }
-            
+        
+            if (!nombreApellidoRegex.test(apellido)) {
+                errores.push("El apellido solo puede contener letras y espacios.");
+            }
+        
+            if (!telefonoRegex.test(telefono)) {
+                errores.push("El teléfono solo puede contener números.");
+            }
+        
+            if (!correoRegex.test(correo)) {
+                errores.push("El correo electrónico no es válido.");
+            }
+        
             if (contraseña !== confirmarContraseña) {
                 errores.push("Las contraseñas no coinciden.");
             }
-            
+        
             if (!politicas) {
-                errores.push("Debe aceptar las políticas de privacidad.");
+                errores.push("Debes aceptar las políticas de privacidad.");
             }
             
+            if (!fechaNacimiento) {
+                errores.push("Debes ingresar una fecha de nacimiento.");
+            } else if (fechaNacimiento > fechaActual) {
+                errores.push("La fecha de nacimiento no puede ser una fecha futura.");
+            } else if (fechaNacimiento < fechaMinima) {
+                errores.push("La fecha de nacimiento no puede ser anterior al 01/01/1930.");
+            }
+        
+            // Mostrar errores o enviar formulario
             if (errores.length > 0) {
-                alert("Errores:\n" + errores.join("\n"));
+                alert(errores.join("\n"));
             } else {
                 alert("Formulario enviado correctamente.");
-                this.submit();
+                this.submit(); // Enviar el formulario
             }
         });
         
+        // Función para mostrar/ocultar contraseña
         function togglePassword(id, button) {
             let input = document.getElementById(id);
             if (input.type === "password") {
@@ -270,8 +289,6 @@ function togglePassword(id, button) {
             }
         }
         
-        
-       
       
             
             
