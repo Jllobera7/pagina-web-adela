@@ -439,6 +439,18 @@ p {
 .controles button:hover {
     background-color:rgb(163, 0, 0);
 }
+.toggle-descripcion {
+    color: #ffffff;
+    background-color: #212121;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.dark .toggle-descripcion  {
+    background-color: #4b4b4b;
+}
+.dark .descripcion {
+    color: white;
+}
 
 
 /* Para pantallas pequeñas (móviles) */

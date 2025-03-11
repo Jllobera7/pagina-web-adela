@@ -156,30 +156,43 @@ function ampliarImagen(img) {
 /* Tarea 1*/
 // Array de objetos con datos de perfumes 
 const perfumes = [
-    { id: 1, nombre: "9PM de Afnan Perfumes", precio: 48.00, categoria: "Hombre" },
-    { id: 2, nombre: "Aether de French Avenue", precio: 51.00, categoria: "Hombre" },
-    { id: 3, nombre: "Hawas Ice for Him de Rasasi", precio: 79.00, categoria: "Hombre" },
-    { id: 4, nombre: "Al Nashama Caprice de Lattafa Perfumes", precio: 40.00, categoria: "Hombre" },
-    { id: 5, nombre: "Asad de Lattafa Perfumes", precio: 32.00, categoria: "Hombre" },
-    { id: 6, nombre: "9AM de Afnan Perfumes", precio: 48.00, categoria: "Mujer" },
-    { id: 7, nombre: "Magical Moment Fantasy de Le Chameau Emper", precio: 85.00, categoria: "Mujer" },
-    { id: 8, nombre: "Bint Hooran Rose de Ard Al Zaafaran", precio: 38.00, categoria: "Mujer" },
-    { id: 9, nombre: "Luscious de French Avenue", precio: 48.00, categoria: "Mujer" },
-    { id: 10, nombre: "Irida de French Avenue", precio: 51.00, categoria: "Mujer" }
+    { id: 1, nombre: "9PM de Afnan Perfumes", precio: 48.00, categoria: "Hombre", descripcion: "Dentro de la familia olfativa Oriental Vainilla. Diseñada para hombres modernos y sofisticados." },
+    { id: 2, nombre: "Aether de French Avenue", precio: 51.00, categoria: "Hombre", descripcion: "Es un extracto de perfume de alta perfumería, elaborado con ingredientes de la calidad de la perfumería niche" },
+    { id: 3, nombre: "Hawas Ice for Him de Rasasi", precio: 79.00, categoria: "Hombre", descripcion: "Es una fragancia  para aquellos que buscan una esencia que combine frescura, sofisticación y un toque de profundidad" },
+    { id: 4, nombre: "Al Nashama Caprice de Lattafa Perfumes", precio: 40.00, categoria: "Hombre", descripcion: "Es una fragancia unisex que destaca por su equilibrio entre frescura y profundidad" },
+    { id: 5, nombre: "Asad de Lattafa Perfumes", precio: 32.00, categoria: "Hombre", descripcion: "Asad de Lattafa Perfumes es una fragancia de la familia olfativa Ámbar para hombres. Asad se lanzó en 2021" },
+    { id: 6, nombre: "9AM de Afnan Perfumes", precio: 48.00, categoria: "Mujer", descripcion: "Diseñada para la mujer que busca frescura, dinamismo y una sofisticación sutil en cada momento de su rutina" },
+    { id: 7, nombre: "Magical Moment Fantasy de Le Chameau Emper", precio: 85.00, categoria: "Mujer", descripcion: "Es una fragancia unisex excepcionalmente exclusiva que evoca puro lujo" },
+    { id: 8, nombre: "Bint Hooran Rose de Ard Al Zaafaran", precio: 38.00, categoria: "Mujer", descripcion: "es una fragancia femenina exquisita que despliega una sinfonía de aromas envolventes" },
+    { id: 9, nombre: "Luscious de French Avenue", precio: 48.00, categoria: "Mujer", descripcion: "Dulce y sofisticado, con una fusión de vainilla, jazmín y almizcle." },
+    { id: 10, nombre: "Irida de French Avenue", precio: 51.00, categoria: "Mujer", descripcion: "es un extracto de perfume de alta perfumería, elaborado con ingredientes de la calidad de la perfumería niche" }
 ];
 
 // Función para generar el HTML de un perfume
 function generarHTMLPerfume(perfume) {
     return `<article>
-            <span class="etiqueta-oferta">¡Oferta!</span>
-            <img class="imagen-producto" src="../imagenes/${perfume.nombre}.webp" alt="${perfume.nombre}">
-            <h3>${perfume.nombre}</h3>
-            <p class="perfumes-de">Perfumes ${perfume.categoria}</p>
-            <p class="precio">
-                <span class="precio-original">${(perfume.precio + 4).toFixed(2)} €</span>
-                <span class="precio-oferta">${perfume.precio.toFixed(2)} €</span>
-            </p>
-        </article>`;
+                <span class="etiqueta-oferta">¡Oferta!</span>
+                <img class="imagen-producto" src="../imagenes/${perfume.nombre}.webp" alt="${perfume.nombre}">
+                <h3>${perfume.nombre}</h3>
+                <p class="perfumes-de">Perfumes ${perfume.categoria}</p>
+                <p class="precio">
+                    <span class="precio-original">${(perfume.precio + 4).toFixed(2)} €</span>
+                    <span class="precio-oferta">${perfume.precio.toFixed(2)} €</span>
+                </p>
+                <button class="toggle-descripcion" onclick="toggleDescripcion(${perfume.id})">Ver descripción</button>
+                <div id="desc-${perfume.id}" class="descripcion" style="display: none;">
+                    <p>${perfume.descripcion}</p>
+                </div>
+            </article>`;
+}
+// Función para mostrar/ocultar la descripción
+function toggleDescripcion(id) {
+    const descripcion = document.getElementById(`desc-${id}`);
+    if (descripcion.style.display === "none") {
+        descripcion.style.display = "block";
+    } else {
+        descripcion.style.display = "none";
+    }
 }
 
 // Función para actualizar la sección de perfumes en la página
