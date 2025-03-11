@@ -102,6 +102,74 @@
     }
 
 
+/*---------------------EJERCICIO-04---------------------*/
+document.addEventListener("DOMContentLoaded", function () {
+    const botonMostrar = document.getElementById("mostrarComentarios");
+    const seccionComentarios = document.getElementById("seccionComentarios");
+    const formulario = document.getElementById("formularioComentario");
+    const listaComentarios = document.getElementById("listaComentarios");
+    const inputComentario = document.getElementById("nuevoComentario");
+
+    // Verifica que los elementos existen antes de agregar eventos
+    if (botonMostrar && seccionComentarios) {
+        botonMostrar.addEventListener("click", function () {
+            seccionComentarios.classList.toggle("hidden"); // Alternar visibilidad
+        });
+    }
+
+    if (formulario && listaComentarios && inputComentario) {
+        formulario.addEventListener("submit", function (event) {
+            event.preventDefault();
+            agregarComentario(inputComentario.value.trim());
+        });
+    }
+
+    function agregarComentario(texto) {
+        if (!texto) return; // Evita comentarios vacíos
+
+        const nuevoElemento = document.createElement("li");
+        nuevoElemento.className = "comment";
+        nuevoElemento.textContent = texto;
+        
+        listaComentarios.appendChild(nuevoElemento);
+        inputComentario.value = "";
+    }
+});
+
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const botonMostrar = document.getElementById("mostrarComentarios01");
+    const seccionComentarios = document.getElementById("seccionComentarios01");
+    const formulario = document.getElementById("formularioComentario01");
+    const listaComentarios = document.getElementById("listaComentarios01");
+    const inputComentario = document.getElementById("nuevoComentario01");
+
+    // Verifica que los elementos existen antes de agregar eventos
+    if (botonMostrar && seccionComentarios) {
+        botonMostrar.addEventListener("click", function () {
+            seccionComentarios.classList.toggle("hidden01"); // Alternar visibilidad
+        });
+    }
+
+    if (formulario && listaComentarios && inputComentario) {
+        formulario.addEventListener("submit", function (event) {
+            event.preventDefault();
+            agregarComentario(inputComentario.value.trim());
+        });
+    }
+
+    function agregarComentario(texto) {
+        if (!texto) return; // Evita comentarios vacíos
+
+        const nuevoElemento = document.createElement("li");
+        nuevoElemento.className = "comment01";
+        nuevoElemento.textContent = texto;
+        
+        listaComentarios.appendChild(nuevoElemento);
+        inputComentario.value = "";
+    }
+});
 
 
      /*---------------------EJERCICIO-08---------------------*/
@@ -209,30 +277,7 @@ function togglePassword(id, button) {
             
       
 
-     /*---------------------EJERCICIO-04---------------------*/
-        
-            document.getElementById("mostrarComentarios").addEventListener("click", function(){
-                const seccion = document.getElementById("seccionComentarios");
-                seccion.classList.toggle("hidden");
-              });
-          
-              document.getElementById("formularioComentario").addEventListener("submit", function(event){
-                event.preventDefault(); 
-                
-                const input = document.getElementById("nuevoComentario");
-                const texto = input.value.trim();
-                
-                if (texto !== "") {
-                  
-                  const nuevoElemento = document.createElement("li");
-                  nuevoElemento.className = "comment";
-                  nuevoElemento.textContent = texto;
-                  
-                  document.getElementById("listaComentarios").appendChild(nuevoElemento);
-                  
-                  input.value = "";
-                }
-              });
+     
 
 
       

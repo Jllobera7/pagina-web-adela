@@ -242,7 +242,7 @@ fieldset > label {
     display: none;
   }
 
-.hidden1 {
+.hidden {
     display: none;
   }
   #listaComentarios {
@@ -282,7 +282,45 @@ fieldset > label {
     width: 100px;
   }
 
-
+  .hidden01 {
+    display: none;
+  }
+  #listaComentarios01 {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .comentarioCliente01{
+    color: white;
+    
+  }
+  .comment {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   
+  }
+  #mostrarComentarios01 {
+    margin: 0 ;
+    padding: 8px;
+    width: 20%;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  .butonto01 {
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
 
 
 /* ========================================= */

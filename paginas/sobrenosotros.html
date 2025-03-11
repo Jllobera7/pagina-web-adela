@@ -120,14 +120,15 @@
                 </form>
             </fieldset>
         </form> 
-        <button id="mostrarComentarios">Mostrar Comentarios</button>
+        
+        <button id="mostrarComentarios01">Mostrar Comentarios</button>
   
-  <div id="seccionComentarios" class="hidden">
-    <h2 class="comentarioCliente">⭐⭐⭐Comentarios de nuestros clientes⭐⭐⭐</h2>
-    <ul id="listaComentarios"></ul>
-    <form id="formularioComentario">
-      <input type="text" id="nuevoComentario" placeholder="Escribe tu comentario..." required>
-      <button type="submit" class="butonto">Enviar</button>
+  <div id="seccionComentarios01" class="hidden01">
+    <h2 class="comentarioCliente01">⭐⭐⭐Comentarios de nuestros clientes⭐⭐⭐</h2>
+    <ul id="listaComentarios01"></ul>
+    <form id="formularioComentario01">
+      <input type="text" id="nuevoComentario01" placeholder="Escribe tu comentario..." required>
+      <button type="submit" class="butonto01">Enviar</button>
     </form>
   </div>
     </main> 
@@ -140,23 +141,6 @@
         </div>
     </footer>   
     <script src="../scripts.js"></script>  
-      <script>
-        document.getElementById("mostrarComentarios").addEventListener("click", function(){
-                const seccion = document.getElementById("seccionComentarios");
-                seccion.classList.toggle("hidden");
-              });         
-              document.getElementById("formularioComentario").addEventListener("submit", function(event){
-                event.preventDefault();                 
-                const input = document.getElementById("nuevoComentario");
-                const texto = input.value.trim();               
-                if (texto !== "") {                 
-                  const nuevoElemento = document.createElement("li");
-                  nuevoElemento.className = "comment";
-                  nuevoElemento.textContent = texto;
-                  document.getElementById("listaComentarios").appendChild(nuevoElemento);
-                  input.value = "";
-                }
-              });
-      </script>
+    
 </body>
 </html>
