@@ -1,3 +1,61 @@
+# README - Proyecto "Gipsy Arome"
+
+## Modificaciones realizadas en los archivos HTML, CSS y Javascript
+Hemos rediseñado la página web de "Gipsy Arome" para mejorar la experiencia del usuario, incorporando animaciones, funcionalidades interactivas y validaciones avanzadas. Se han añadido elementos como un carrusel de perfumes, efectos visuales en formularios, un sistema de comentarios dinámico y un modo claro/oscuro. Además, se han corregido errores en HTML, CSS y Javascript, optimizando la integración de ramas y asegurando un funcionamiento fluido.
+
+Previsualiza nuestra página web [aquí](https://jllobera7.github.io/pagina-web-adela/).
+
+## Propósito de las Funcionalidades
+
+### 1. Interactividad y Animaciones
+La página incluye animaciones y efectos visuales como pulverización de perfume al hacer clic, un carrusel de imágenes de perfumes destacados y un sistema de filtrado y ordenación de productos.
+
+### 2. Formularios y Comentarios
+Se han implementado formularios de "Inicia Sesión", "Regístrate" y "Sobre Nosotros" con validación en Javascript, un sistema dinámico para mostrar y enviar comentarios, y un efecto de mostrar/ocultar contraseñas.
+
+### 3. Diseño Responsive y Efectos
+La página está optimizada para adaptarse a diferentes dispositivos (escritorio, móviles y tablets), con efectos como cambio de color al interactuar con botones y un interruptor para modo claro/oscuro.
+
+---
+
+## Explicación de Funcionalidades Clave
+
+- **Animación de pulverización:** Al hacer clic en el header, se activa una animación de pulverización con sonido, simulando un perfume.
+- **Carrusel de imágenes:** Muestra los perfumes más vendidos con botones para navegar y ampliación al hacer clic en las imágenes.
+- **Validación de formularios:** Usa Javascript para validar campos como correos y contraseñas, con un ojo animado para mostrar/ocultar contraseñas.
+- **Sistema de comentarios:** Permite a los usuarios enviar y ver comentarios dinámicamente en la sección "Sobre Nosotros".
+- **Filtrado y ordenación:** Botones para filtrar perfumes por precio máximo y ordenarlos por nombre o precio.
+- **Modo claro/oscuro:** Botón en la esquina superior derecha para alternar entre modos.
+
+---
+
+## Colaboración del Equipo
+
+### Juan
+Juan ha dedicado unas 20 horas aproximadas al proyecto, enfocándose en la creación de animaciones e interacciones visuales. Entre sus aportaciones destacan la animación de pulverización al hacer clic en el header, que incluye un efecto visual y un audio simulando un perfume (funcionalidad extra), y la animación del ojo en los formularios para mostrar y ocultar contraseñas (funcionalidad 2). También implementó un efecto interactivo en el nombre de la tienda en el header, que cambia de tamaño sutilmente y se vuelve de un color azulado al pasar el cursor por encima (funcionalidad 5). Además, creó un carrusel de imágenes de los perfumes más vendidos, que se desliza mediante botones (funcionalidad 6), y añadió una función para ampliar las imágenes del carrusel al hacer clic (funcionalidad 7). Finalmente, contribuyó a la resolución de conflictos al unir diferentes ramas y corrigió el CSS, HTML y Javascript para garantizar un funcionamiento perfecto.
+
+### Cristian
+Cristian ha trabajado unas x horas aproximadas, centrándose en la implementación de funcionalidades dinámicas y validaciones. Creó un efecto visual para mostrar y ocultar un texto (funcionalidad 2) y desarrolló un botón que muestra dinámicamente una lista de comentarios enviados por los usuarios a través de un formulario en la página "Sobre Nosotros" (funcionalidad 4). También implementó la validación mediante Javascript de los campos de los formularios de "Inicia Sesión", "Regístrate" y "Sobre Nosotros" (funcionalidad 8), asegurando que los datos introducidos cumplan con los requisitos establecidos.
+
+### Jonay
+Jonay ha invertido unas 21 horas aproximadas en el proyecto, destacando su trabajo en la estructura de datos y funcionalidades interactivas. Definió una estructura de datos para los perfumes utilizando un array con identificadores únicos, nombres, breves descripciones y precios (funcionalidad 1). Implementó botones para filtrar perfumes por precio máximo (según lo que el usuario desee pagar), ordenarlos alfabéticamente por nombre y por precio de menor a mayor (funcionalidad 1). Además, añadió un efecto visual a los botones de filtrado, que cambian a color rojo al pasar el cursor por encima (funcionalidad 5). Creó un botón en la esquina superior derecha para alternar entre modo claro y oscuro en la página web (funcionalidad 3). También adaptó la funcionalidad 2 a la página final a partir de los elementos del array (funcionalidad 1), resolvió conflictos al unir diferentes ramas, corrigió el CSS, HTML y Javascript para un funcionamiento perfecto, y actualizó este README (funcionalidad 9).
+
+*Nota: Por favor, especifica el tiempo exacto que Cristian dedicó al proyecto (en lugar de "x horas") para completar esta sección.*
+
+---
+
+## Conclusión
+El equipo ha trabajado de forma colaborativa para desarrollar una página web funcional, atractiva y dinámica para "Gipsy Arome". Las animaciones, el carrusel de perfumes, los formularios validados, el sistema de comentarios y las opciones de filtrado y modo claro/oscuro aportan un gran valor al proyecto, mientras que la resolución de conflictos asegura una integración sólida.
+
+---
+
+### Notas finales
+- Si deseas añadir imágenes (como capturas de pantalla), puedes incluir enlaces con la sintaxis `![Descripción](URL)`.
+- Proporcióname el tiempo exacto de Cristian para completar su sección si lo deseas.
+- Si necesitas ajustar algo más (nombres, enlaces, o añadir más secciones), no dudes en decírmelo.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Modificaciones realizadas en los archivos HTML, CSS y Javascript
 Hemos vueto a "rediseñar" nuestra página web, haciendo muchos cambios, añadiendo páginas nuevas y eliminando otras.Así como volviedo a hacer los CSS y reestructurandolos y dividiendolos en más páginas.También hemos hecho muchos cambios visuales de diseño.
 
