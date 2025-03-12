@@ -334,7 +334,6 @@ article {
     font-family: Arial, sans-serif;
     border: 1px solid #ddd;
     padding: 10px;
-    
     max-width: 300px;
     text-align: center;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
@@ -346,7 +345,6 @@ article {
 }
 
 .etiqueta-oferta {
-    display: inline-block;
     background-color: #ff0000d3; /* Amarillo para destacar la etiqueta de oferta */
     color: black;
     padding: 5px 10px;
@@ -366,6 +364,7 @@ article {
     display: flex;
     margin-left: 8%;
     margin-right: 8%;
+    margin-top: 5px;
 }
 
 h3 {
