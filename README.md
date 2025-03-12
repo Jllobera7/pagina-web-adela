@@ -8,7 +8,7 @@ Previsualiza nuestra página web [aquí](https://jllobera7.github.io/pagina-web-
 ## Propósito de las Funcionalidades
 
 ### 1. Interactividad y Animaciones
-La página incluye animaciones y efectos visuales como pulverización de perfume al hacer clic, un carrusel de imágenes de perfumes destacados y un sistema de filtrado y ordenación de productos.
+La página incluye animaciones y efectos visuales como pulverización de perfume al hacer clic en el "header", un carrusel de imágenes de perfumes destacados y un sistema de filtrado y ordenación de productos.
 
 ### 2. Formularios y Comentarios
 Se han implementado formularios de "Inicia Sesión", "Regístrate" y "Sobre Nosotros" con validación en Javascript, un sistema dinámico para mostrar y enviar comentarios, y un efecto de mostrar/ocultar contraseñas.
@@ -40,19 +40,19 @@ Cristian ha trabajado unas x horas aproximadas, centrándose en la implementaci�
 ### Jonay
 Jonay ha invertido unas 21 horas aproximadas en el proyecto, destacando su trabajo en la estructura de datos y funcionalidades interactivas. Definió una estructura de datos para los perfumes utilizando un array con identificadores únicos, nombres, breves descripciones y precios (funcionalidad 1). Implementó botones para filtrar perfumes por precio máximo (según lo que el usuario desee pagar), ordenarlos alfabéticamente por nombre y por precio de menor a mayor (funcionalidad 1). Además, añadió un efecto visual a los botones de filtrado, que cambian a color rojo al pasar el cursor por encima (funcionalidad 5). Creó un botón en la esquina superior derecha para alternar entre modo claro y oscuro en la página web (funcionalidad 3). También adaptó la funcionalidad 2 a la página final a partir de los elementos del array (funcionalidad 1), resolvió conflictos al unir diferentes ramas, corrigió el CSS, HTML y Javascript para un funcionamiento perfecto, y actualizó este README (funcionalidad 9).
 
-*Nota: Por favor, especifica el tiempo exacto que Cristian dedicó al proyecto (en lugar de "x horas") para completar esta sección.*
 
 ---
 
-## Conclusión
-El equipo ha trabajado de forma colaborativa para desarrollar una página web funcional, atractiva y dinámica para "Gipsy Arome". Las animaciones, el carrusel de perfumes, los formularios validados, el sistema de comentarios y las opciones de filtrado y modo claro/oscuro aportan un gran valor al proyecto, mientras que la resolución de conflictos asegura una integración sólida.
+| Integrant    | Tasques realitzades                                         | Temps dedicat | Descripció del treball                                                                 |
+|--------------|------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------|
+| Alumne 1     | Maquetació amb HTML.<br>Creació de <header> i <footer>.<br>Validació del formulari. | 14 hores      | Ha creat l’estructura principal de l’HTML i els elements semàntics de la capçalera i el peu de pàgina.<br>Ha implementat un script per validar un formulari en temps real i mostrar missatges d’error personalitzats. |
+| Alumne 2     | Estilització amb CSS. Disseny del layout amb Flexbox.<br>Creació de la barra de navegació. | 8 hores       | S’ha encarregat del disseny visual, colors, i organització dels elements usant.       |
+| Alumne 3     | Optimització d’arixus.<br>Inclusió d’imatges.<br>Implementació del carrusel. | 10 hores      | Ha inserit imatges en el projecte i optimitzat el seu tamany per millorar la càrrega de la web.<br>Ha redactat part de la documentació del projecte. |
 
 ---
 
 ### Notas finales
-- Si deseas añadir imágenes (como capturas de pantalla), puedes incluir enlaces con la sintaxis `![Descripción](URL)`.
-- Proporcióname el tiempo exacto de Cristian para completar su sección si lo deseas.
-- Si necesitas ajustar algo más (nombres, enlaces, o añadir más secciones), no dudes en decírmelo.
+Nos ha llevado mucho tiempo dominar el sistema git y hemos tenido muchas trabas, pero alfinal lo conseguimos!
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
