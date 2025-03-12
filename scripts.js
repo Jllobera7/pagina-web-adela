@@ -163,9 +163,9 @@ const perfumes = [
     { id: 5, nombre: "Asad de Lattafa Perfumes", precio: 32.00, categoria: "Hombre", descripcion: "Asad de Lattafa Perfumes es una fragancia de la familia olfativa Ámbar para hombres. Asad se lanzó en 2021" },
     { id: 6, nombre: "9AM de Afnan Perfumes", precio: 48.00, categoria: "Mujer", descripcion: "Diseñada para la mujer que busca frescura, dinamismo y una sofisticación sutil en cada momento de su rutina" },
     { id: 7, nombre: "Magical Moment Fantasy de Le Chameau Emper", precio: 85.00, categoria: "Mujer", descripcion: "Es una fragancia unisex excepcionalmente exclusiva que evoca puro lujo" },
-    { id: 8, nombre: "Bint Hooran Rose de Ard Al Zaafaran", precio: 38.00, categoria: "Mujer", descripcion: "es una fragancia femenina exquisita que despliega una sinfonía de aromas envolventes" },
+    { id: 8, nombre: "Bint Hooran Rose de Ard Al Zaafaran", precio: 38.00, categoria: "Mujer", descripcion: "Es una fragancia femenina exquisita que despliega una sinfonía de aromas envolventes" },
     { id: 9, nombre: "Luscious de French Avenue", precio: 48.00, categoria: "Mujer", descripcion: "Dulce y sofisticado, con una fusión de vainilla, jazmín y almizcle." },
-    { id: 10, nombre: "Irida de French Avenue", precio: 51.00, categoria: "Mujer", descripcion: "es un extracto de perfume de alta perfumería, elaborado con ingredientes de la calidad de la perfumería niche" }
+    { id: 10, nombre: "Irida de French Avenue", precio: 51.00, categoria: "Mujer", descripcion: "Es un extracto de perfume de alta perfumería, elaborado con ingredientes de la calidad de la perfumería niche" }
 ];
 
 // Función para generar el HTML de un perfume
