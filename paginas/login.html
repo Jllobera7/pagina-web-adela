@@ -37,33 +37,30 @@
         </section>
         
 
-        <form action="#" method="post">
+        <form action="#" method="post" id="formulario01">
             <fieldset>
                 <legend>Inicia sesión</legend>
-
+        
                 <div class="form-row">
-                    
                     <!-- Correo electrónico -->
-                    <label for="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required placeholder="correo@dominio.com">
+                    <label for="correo01">Correo electrónico:</label>
+                    <input type="email" id="correo01" name="correo01" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required placeholder="correo@dominio.com">
                 </div>
-
+        
                 <div class="form-row">
                     <!-- Contraseña -->
-                    <label for="contraseña">Contraseña:</label>
+                    <label for="contraseña01">Contraseña:</label>
                     <div class="password-wrapper">
-                        <input type="password" id="contraseña" name="contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" 
-                    placeholder="8 caracteres,1 mayúscula, 1 minúscula,1 número y 1 carácter especial."
-                            title="Debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula, un número y un carácter especial (!@#$%^&*).">
-                        <button type="button" class="eye-btn" onclick="togglePassword('contraseña', this) "aria-label="Mostrar u ocultar contraseña">👁️</button>
+                        <input type="password" id="contraseña01" name="contraseña01" required placeholder="8 caracteres, 1 mayúscula, 1 minúscula, 1 número y 1 carácter especial.">
+                        <button type="button" class="eye-btn" onclick="togglePassword('contraseña01', this)" aria-label="Mostrar u ocultar contraseña">👁️</button>
                     </div>
                 </div>
-
-
-            <!-- Botón de envío -->
-            <button type="submit">Iniciar sesión</button>
-        </fieldset>
-    </form>
+        
+                <!-- Botón de envío -->
+                <button id="send" type="submit">Iniciar sesión</button>
+            </fieldset>
+        </form>
+        
     <p class="inicia-sesion">
         ¿No tiene cuenta? <a href="registro.html">Regístrate</a>
     </p>
@@ -71,6 +68,7 @@
         ¿Olvidó su contraseña? <a href="">Olvidé contraseña</a></p>
 
   
+      
 
         <footer><!--pie de página con derechos de autor, redes sociales y nuestra política de privacidad -->
             <p>&copy; 2024 Gipsy Arome. Todos los derechos reservados.</p>
