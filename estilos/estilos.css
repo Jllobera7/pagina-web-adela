@@ -425,6 +425,8 @@ p {
     width: 100px;
     margin-right: 10px;
 }
+
+
 .controles button {
     padding: 8px 15px;
     margin: 0 5px;
@@ -500,7 +502,9 @@ p {
     }
     .controles button {
         margin-top: 15px;
-      
+    }
+    .dark .controles button {
+        margin-top: 15px;
     }
     .logo{
     width: 10rem;
@@ -590,6 +594,10 @@ p {
    .titulo-pagina-mujer{
     font-size: 3rem;
    }
+   .dark .titulo-pagina-mujer{
+    font-size: 3rem;
+   }
+   
    .imagen-producto{
     height: 9rem;
     margin-right: 3.5rem;
