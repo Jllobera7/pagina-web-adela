@@ -45,9 +45,9 @@ Jonay ha invertido unas 21 horas aproximadas en el proyecto, destacando su traba
 
 | Integrant    | Tasques realitzades                                         | Temps dedicat | Descripció del treball                                                                 |
 |--------------|------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------|
-| Alumne 1     | Maquetació amb HTML.<br>Creació de <header> i <footer>.<br>Validació del formulari. | 14 hores      | Ha creat l’estructura principal de l’HTML i els elements semàntics de la capçalera i el peu de pàgina.<br>Ha implementat un script per validar un formulari en temps real i mostrar missatges d’error personalitzats. |
-| Alumne 2     | Estilització amb CSS. Disseny del layout amb Flexbox.<br>Creació de la barra de navegació. | 8 hores       | S’ha encarregat del disseny visual, colors, i organització dels elements usant.       |
-| Alumne 3     | Optimització d’arixus.<br>Inclusió d’imatges.<br>Implementació del carrusel. | 10 hores      | Ha inserit imatges en el projecte i optimitzat el seu tamany per millorar la càrrega de la web.<br>Ha redactat part de la documentació del projecte. |
+| Juan     | Ejercicio 2, 5 , 6, 7, parte del 9 y animación extra | 14 hores      | Ha creat l’estructura principal de l’HTML i els elements semàntics de la capçalera i el peu de pàgina.<br>Ha implementat un script per validar un formulari en temps real i mostrar missatges d’error personalitzats. |
+| Jonay     | Ejercicio 1, parte del 2, 3, 5 y parte del 9| 8 hores       | S’ha encarregat del disseny visual, colors, i organització dels elements usant.       |,
+| Cristian     | Ejercicio 4 y 8 | 10 hores      | Ha inserit imatges en el projecte i optimitzat el seu tamany per millorar la càrrega de la web.<br>Ha redactat part de la documentació del projecte. |
 
 ---
 
