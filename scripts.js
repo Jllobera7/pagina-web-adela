@@ -303,4 +303,25 @@ toggle.addEventListener('change', (event)=> { /*añadimos un evento que sera par
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -----------------------------CRISTIAN-----------------------------------------------*/
