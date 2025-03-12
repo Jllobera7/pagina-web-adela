@@ -66,6 +66,7 @@ let fechaActual = new Date().toISOString().split("T")[0];
 let fechaMinima = "1930-01-01";
 // - `fechaActual`: Captura la fecha actual en formato `YYYY-MM-DD`, eliminando la parte de la hora.
 // - `fechaMinima`: Define la fecha mínima permitida como `1930-01-01`, útil para validar edades o restricciones históricas.
+```
 
 
 
