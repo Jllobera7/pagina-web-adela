@@ -32,10 +32,10 @@ La página está optimizada para adaptarse a diferentes dispositivos (escritorio
 ## Colaboración del Equipo
 
 ### Juan
-Juan ha dedicado unas 22 horas aproximadas al proyecto, enfocándose en la creación de animaciones e interacciones visuales. Entre sus aportaciones destacan la animación de pulverización al hacer clic en el header, que incluye un efecto visual y un audio simulando un perfume (funcionalidad extra), y la animación del ojo en los formularios para mostrar y ocultar contraseñas (funcionalidad 2). También implementó un efecto interactivo en el nombre de la tienda en el header, que cambia de tamaño sutilmente y se vuelve de un color azulado al pasar el cursor por encima (funcionalidad 5). Además, creó un carrusel de imágenes de los perfumes más vendidos, que se desliza mediante botones (funcionalidad 6), y añadió una función para ampliar las imágenes del carrusel al hacer clic (funcionalidad 7). Finalmente, contribuyó a la resolución de conflictos al unir diferentes ramas y corrigió el CSS, HTML y Javascript para garantizar un funcionamiento perfecto.
+Juan ha dedicado unas 22 horas aproximadas al proyecto, enfocándose en la Creación de animaciones e interacciones visuales. Entre sus aportaciones destacan la animación de pulverización al hacer clic en el header, que incluye un efecto visual y un audio simulando un perfume (funcionalidad extra), y la animación del ojo en los formularios para mostrar y ocultar contraseñas (funcionalidad 2). También implementó un efecto interactivo en el nombre de la tienda en el header, que cambia de tamaño sutilmente y se vuelve de un color azulado al pasar el cursor por encima (funcionalidad 5). Además, creó un carrusel de imágenes de los perfumes más vendidos, que se desliza mediante botones (funcionalidad 6), y añadió una función para ampliar las imágenes del carrusel al hacer clic (funcionalidad 7). Finalmente, contribuyó a la resolución de conflictos al unir diferentes ramas y corrigió el CSS, HTML y Javascript para garantizar un funcionamiento perfecto y actualizó este README(funcionalidad 9).
 
 ### Cristian
-Cristian ha trabajado unas 10 horas aproximadas, centrándose en la implementación de funcionalidades dinámicas y validaciones. Creó un efecto visual para mostrar y ocultar un texto (funcionalidad 2) y desarrolló un botón que muestra dinámicamente una lista de comentarios enviados por los usuarios a través de un formulario en la página "Sobre Nosotros" (funcionalidad 4). También implementó la validación mediante Javascript de los campos de los formularios de "Inicia Sesión", "Regístrate" y "Sobre Nosotros" (funcionalidad 8), asegurando que los datos introducidos cumplan con los requisitos establecidos.
+Cristian ha trabajado unas 10 horas aproximadas, centrándose en la Implementación de funcionalidades dinámicas y validaciones. Creó un efecto visual para mostrar y ocultar un texto (funcionalidad 2) y desarrolló un botón que muestra dinámicamente una lista de comentarios enviados por los usuarios a través de un formulario en la página "Sobre Nosotros" (funcionalidad 4). También implementó la validación mediante Javascript de los campos de los formularios de "Inicia Sesión", "Regístrate" y "Sobre Nosotros" (funcionalidad 8), asegurando que los datos introducidos cumplan con los requisitos establecidos.
 
 ### Jonay
 Jonay ha invertido unas 24 horas aproximadas en el proyecto, destacando su trabajo en la estructura de datos y funcionalidades interactivas. Definió una estructura de datos para los perfumes utilizando un array con identificadores únicos, nombres, breves descripciones y precios (funcionalidad 1). Implementó botones para filtrar perfumes por precio máximo (según lo que el usuario desee pagar), ordenarlos alfabéticamente por nombre y por precio de menor a mayor (funcionalidad 1). Además, añadió un efecto visual a los botones de filtrado, que cambian a color rojo al pasar el cursor por encima (funcionalidad 5). Creó un botón en la esquina superior derecha para alternar entre modo claro y oscuro en la página web (funcionalidad 3). También adaptó la funcionalidad 2 a la página final a partir de los elementos del array (funcionalidad 1), resolvió conflictos al unir diferentes ramas, corrigió el CSS, HTML y Javascript para un funcionamiento perfecto, y actualizó este README (funcionalidad 9).
@@ -43,16 +43,45 @@ Jonay ha invertido unas 24 horas aproximadas en el proyecto, destacando su traba
 
 ---
 
-| Integrant    | Tasques realitzades                                         | Temps dedicat | Descripció del treball                                                                 |
+| Integrante    | Tarea realizada                                         | Tiempo dedicado | Descripción del trabajo0                                                                 |
 |--------------|------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------|
-| Juan     | Ejercicio 2, 5 , 6, 7, parte del 9 y animación extra | 14 hores      | Juan ha dedicado unas 20 horas aproximadas al proyecto, enfocándose en la creación de animaciones e interacciones visuales. Entre sus aportaciones destacan la animación de pulverización al hacer clic en el header, que incluye un efecto visual y un audio simulando un perfume (funcionalidad extra), y la animación del ojo en los formularios para mostrar y ocultar contraseñas (funcionalidad 2). También implementó un efecto interactivo en el nombre de la tienda en el header, que cambia de tamaño sutilmente y se vuelve de un color azulado al pasar el cursor por encima (funcionalidad 5). Además, creó un carrusel de imágenes de los perfumes más vendidos, que se desliza mediante botones (funcionalidad 6), y añadió una función para ampliar las imágenes del carrusel al hacer clic (funcionalidad 7). Finalmente, contribuyó a la resolución de conflictos al unir diferentes ramas y corrigió el CSS, HTML y Javascript para garantizar un funcionamiento perfecto. |
-| Jonay     | Ejercicio 1, parte del 2, 3, 5 y parte del 9| 8 hores       | S’ha encarregat del disseny visual, colors, i organització dels elements usant.       |,
-| Cristian     | Ejercicio 4 y 8 | 10 hores      | Ha inserit imatges en el projecte i optimitzat el seu tamany per millorar la càrrega de la web.<br>Ha redactat part de la documentació del projecte. |
+| Juan     | Ejercicio 2, 5 , 6, 7, parte del 9 y animación extra | 22 hores      | Creación de animaciones e interacciones visuales. Entre sus aportaciones destacan la animación de pulverización al hacer clic en el header, que incluye un efecto visual y un audio simulando un perfume (funcionalidad extra), y la animación del ojo en los formularios para mostrar y ocultar contraseñas (funcionalidad 2). También implementó un efecto interactivo en el nombre de la tienda en el header, que cambia de tamaño sutilmente y se vuelve de un color azulado al pasar el cursor por encima (funcionalidad 5). Además, creó un carrusel de imágenes de los perfumes más vendidos, que se desliza mediante botones (funcionalidad 6), y añadió una función para ampliar las imágenes del carrusel al hacer clic (funcionalidad 7). Finalmente, contribuyó a la resolución de conflictos al unir diferentes ramas y corrigió el CSS, HTML y Javascript para garantizar un funcionamiento perfecto y actualizó este README(funcionalidad 9). |
+| Jonay     | Ejercicio 1, parte del 2, 3, 5 y parte del 9| 24 hores       | S’ha encarregat del disseny visual, colors, i organització dels elements usant.       |,
+| Cristian     | Ejercicio parte del 2, 4 y 8 | 10 hores      | Creó un efecto visual para mostrar y ocultar un texto (funcionalidad 2) y desarrolló un botón que muestra dinámicamente una lista de comentarios enviados por los usuarios a través de un formulario en la página "Sobre Nosotros" (funcionalidad 4). También implementó la validación mediante Javascript de los campos de los formularios de "Inicia Sesión", "Regístrate" y "Sobre Nosotros" (funcionalidad 8), asegurando que los datos introducidos cumplan con los requisitos establecidos. |
 
 ---
+## Expresiones Regulares y Validaciones en JavaScript
+
+``javascript
+// Validación de Nombre y Apellido
+const nombreApellidoRegex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/;
+// - Permite solo letras (mayúsculas y minúsculas), incluyendo caracteres acentuados y la letra "Ñ".
+// - Se acepta el uso de espacios en blanco.
+// - No se permiten números ni caracteres especiales.
+
+// Validación de Teléfono
+const telefonoRegex = /^[+0-9]+$/;
+// - Solo admite dígitos (0-9) y el signo `+`, útil para códigos internacionales.
+// - No permite letras ni caracteres especiales distintos del `+`.
+
+// Validación de Correo Electrónico
+const correoRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+// - Acepta combinaciones de letras, números y algunos caracteres especiales (`._%+-`) antes del `@`.
+// - Requiere un dominio después del `@`, con letras, números y puntos (`.`).
+// - La terminación del dominio debe tener al menos dos letras (`.com`, `.es`, etc.).
+// - No admite caracteres especiales no estándar.
+
+// Captura y Validación de Fechas
+let fechaActual = new Date().toISOString().split("T")[0];
+let fechaMinima = "1930-01-01";
+// - `fechaActual`: Captura la fecha actual en formato `YYYY-MM-DD`, eliminando la parte de la hora.
+// - `fechaMinima`: Define la fecha mínima permitida como `1930-01-01`, útil para validar edades o restricciones históricas.
+
+
 
 ### Notas finales
 Nos ha llevado mucho tiempo dominar el sistema git y hemos tenido muchas trabas, pero alfinal lo conseguimos!
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
