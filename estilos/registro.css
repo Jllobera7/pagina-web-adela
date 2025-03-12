@@ -216,15 +216,16 @@ button:hover {
 .password-wrapper {
     display: flex;
     gap: 10px;
+
 }
 
 .eye-btn {
     right: 0px;
-    top: 50%;
     background: none;
     border: none;
     font-size: 1.15em;
     cursor: pointer;
+    display: contents;
 }
 
 /* Filas del formulario */
