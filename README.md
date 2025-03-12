@@ -31,16 +31,6 @@ La página está optimizada para adaptarse a diferentes dispositivos (escritorio
 
 ## Colaboración del Equipo
 
-### Juan
-Juan ha dedicado unas 22 horas aproximadas al proyecto, enfocándose en la Creación de animaciones e interacciones visuales. Entre sus aportaciones destacan la animación de pulverización al hacer clic en el header, que incluye un efecto visual y un audio simulando un perfume (funcionalidad extra), y la animación del ojo en los formularios para mostrar y ocultar contraseñas (funcionalidad 2). También implementó un efecto interactivo en el nombre de la tienda en el header, que cambia de tamaño sutilmente y se vuelve de un color azulado al pasar el cursor por encima (funcionalidad 5). Además, creó un carrusel de imágenes de los perfumes más vendidos, que se desliza mediante botones (funcionalidad 6), y añadió una función para ampliar las imágenes del carrusel al hacer clic (funcionalidad 7). Finalmente, contribuyó a la resolución de conflictos al unir diferentes ramas y corrigió el CSS, HTML y Javascript para garantizar un funcionamiento perfecto y actualizó este README(funcionalidad 9).
-
-### Cristian
-Cristian ha trabajado unas 10 horas aproximadas, centrándose en la Implementación de funcionalidades dinámicas y validaciones. Creó un efecto visual para mostrar y ocultar un texto (funcionalidad 2) y desarrolló un botón que muestra dinámicamente una lista de comentarios enviados por los usuarios a través de un formulario en la página "Sobre Nosotros" (funcionalidad 4). También implementó la validación mediante Javascript de los campos de los formularios de "Inicia Sesión", "Regístrate" y "Sobre Nosotros" (funcionalidad 8), asegurando que los datos introducidos cumplan con los requisitos establecidos.
-
-### Jonay
-Jonay ha invertido unas 24 horas aproximadas en el proyecto, destacando su trabajo en la estructura de datos y funcionalidades interactivas. Definió una estructura de datos para los perfumes utilizando un array con identificadores únicos, nombres, breves descripciones y precios (funcionalidad 1). Implementó botones para filtrar perfumes por precio máximo (según lo que el usuario desee pagar), ordenarlos alfabéticamente por nombre y por precio de menor a mayor (funcionalidad 1). Además, añadió un efecto visual a los botones de filtrado, que cambian a color rojo al pasar el cursor por encima (funcionalidad 5). Creó un botón en la esquina superior derecha para alternar entre modo claro y oscuro en la página web (funcionalidad 3). También adaptó la funcionalidad 2 a la página final a partir de los elementos del array (funcionalidad 1), resolvió conflictos al unir diferentes ramas, corrigió el CSS, HTML y Javascript para un funcionamiento perfecto, y actualizó este README (funcionalidad 9).
-
-
 ---
 
 | Integrante    | Tarea realizada                                         | Tiempo dedicado | Descripción del trabajo0                                                                 |
@@ -52,7 +42,7 @@ Jonay ha invertido unas 24 horas aproximadas en el proyecto, destacando su traba
 ---
 ## Expresiones Regulares y Validaciones en JavaScript
 
-``javascript
+```javascript
 // Validación de Nombre y Apellido
 const nombreApellidoRegex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/;
 // - Permite solo letras (mayúsculas y minúsculas), incluyendo caracteres acentuados y la letra "Ñ".
@@ -66,7 +56,7 @@ const telefonoRegex = /^[+0-9]+$/;
 
 // Validación de Correo Electrónico
 const correoRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-// - Acepta combinaciones de letras, números y algunos caracteres especiales (`._%+-`) antes del `@`.
+// - Acepta combinaciones de letras, números y algunos caracteres especiales (._%+-) antes del `@`.
 // - Requiere un dominio después del `@`, con letras, números y puntos (`.`).
 // - La terminación del dominio debe tener al menos dos letras (`.com`, `.es`, etc.).
 // - No admite caracteres especiales no estándar.
