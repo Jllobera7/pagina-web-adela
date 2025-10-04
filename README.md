@@ -3,7 +3,7 @@
 ## Modificaciones realizadas en los archivos HTML, CSS y Javascript
 Hemos rediseñado la página web de "Gipsy Arome" para mejorar la experiencia del usuario, incorporando animaciones, funcionalidades interactivas y validaciones avanzadas. Se han añadido elementos como un carrusel de perfumes, efectos visuales en formularios, un sistema de comentarios dinámico y un modo claro/oscuro. Además, se han corregido errores en HTML, CSS y Javascript, optimizando la integración de ramas y asegurando un funcionamiento fluido.
 
-Previsualiza nuestra página web [aquí](https://jllobera7.github.io/pagina-web-adela/).
+PREVISUALIZA NUESTRA PÁGINA WEB [aquí](https://jllobera7.github.io/pagina-web-adela/).
 
 ## Propósito de las Funcionalidades
 
